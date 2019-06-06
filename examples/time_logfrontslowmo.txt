@@ -1,0 +1,32 @@
+
+2019-06-06 15:43:44.813018***train_network start
+2019-06-06 15:45:14.794884***train_network start
+2019-06-06 15:46:07.755558***train_network start
+   DESCRIPTION:continuation of 2nd network, 300k max iters, idk if outliers are included in training
+2019-06-06 15:49:20.123898***train_network start
+   DESCRIPTION:k
+2019-06-06 16:00:42.442347***analyze_videos start
+2019-06-06 16:00:46.370226***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\compressed25.mp4']
+2019-06-06 16:23:20.965807***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed50.mp4']
+2019-06-06 16:24:36.738794***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed50.mp4']
+2019-06-06 16:24:51.925209***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed50.mp4']
+2019-06-06 16:46:37.189809***analyze_videos end
+   time elapsed:0:21:45.264600
+2019-06-06 16:46:37.192801***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed30.mp4']
+2019-06-06 17:07:38.147975***analyze_videos end
+   time elapsed:0:21:00.955174
+2019-06-06 17:07:38.150968***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed27.mp4']
+2019-06-06 17:29:15.887268***analyze_videos end
+   time elapsed:0:21:37.736300
+2019-06-06 17:29:15.892256***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed25.mp4']
+2019-06-06 17:29:18.775546***analyze_videos end
+   time elapsed:0:00:02.883290
+2019-06-06 17:29:18.782529***analyze_videos start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed20.mp4']
