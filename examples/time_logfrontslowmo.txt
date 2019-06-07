@@ -30,3 +30,15 @@
    time elapsed:0:00:02.883290
 2019-06-06 17:29:18.782529***analyze_videos start
    VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed20.mp4']
+2019-06-06 17:50:25.186186***analyze_videos end
+   time elapsed:0:21:06.403657
+2019-06-06 17:50:25.200149***train_network start
+2019-06-07 10:07:22.870056***train_network start
+2019-06-07 10:07:30.158021***train_network start
+   DESCRIPTION:test prompt with timeout
+2019-06-07 10:07:48.030523***train_network start
+   DESCRIPTION:No Input Received
+2019-06-07 10:10:56.967641***train_network start
+   DESCRIPTION:first network, lots of iterations, maybe training includes clock time
+2019-06-07 10:25:45.481218***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Downloads\\frontslowmoCOMPRESSED\\compressed50.mp4']
