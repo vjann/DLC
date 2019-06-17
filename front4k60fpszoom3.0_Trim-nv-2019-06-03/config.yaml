@@ -1,0 +1,48 @@
+# Project definitions (do not edit)
+Task: front4k60fpszoom3.0_Trim
+scorer: nv
+date: Jun3
+
+# Project path (change when moving around)
+project_path: C:\Users\vjj14\Desktop\DeepLabCut\front4k60fpszoom3.0_Trim-nv-2019-06-03
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\vjj14\Desktop\DeepLabCut\front4k60fpszoom3.0_Trim-nv-2019-06-03\videos\front4k60fpszoom3.0_Trim.mp4:
+    crop: 14, 2150, 14, 3299
+bodyparts:
+- LeftHand
+- RightHand
+- Nose
+- Pellet
+start: 0
+stop: 1
+numframes2pick: 250
+
+# Plotting configuration
+pcutoff: 0.1
+dotsize: 18
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet: 50
+snapshotindex: -1
+batch_size: 4
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

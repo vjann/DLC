@@ -1,0 +1,60 @@
+# Project definitions (do not edit)
+Task: multi-diagonal
+scorer: vj
+date: Jun10
+
+# Project path (change when moving around)
+project_path: C:\Users\vjj14\Desktop\DeepLabCut\multi-diagonal-vj-2019-06-10
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\vjj14\Desktop\DeepLabCut\multi-diagonal-vj-2019-06-10\videos\diag2_Trim.mp4:
+    crop: 0, 1078, 6, 1078
+  C:\Users\vjj14\Desktop\DeepLabCut\multi-diagonal-vj-2019-06-10\videos\diag2_Trim2.mp4:
+    crop: 0, 1080, 0, 1920
+  C:\Users\vjj14\Desktop\DeepLabCut\multi-diagonal-vj-2019-06-10\videos\diagonal1080p240fps_Trim.mp4:
+    crop: 3, 1078, 0, 1088
+  C:\Users\vjj14\Desktop\DeepLabCut\multi-diagonal-vj-2019-06-10\videos\diagonalzoom1080p240fps_Trim.mp4:
+    crop: 3, 1078, 3, 1323
+  C:\Users\vjj14\Desktop\DeepLabCut\multi-diagonal-vj-2019-06-10\videos\1080p_Trim2.mp4:
+    crop: 291, 1627, 0, 1065
+bodyparts:
+- leftEye
+- nose
+- hand
+- index
+- middle
+- ring
+- pinky
+- pellet
+start: 0
+stop: 1
+numframes2pick: 60
+
+# Plotting configuration
+pcutoff: 0.1
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.9
+iteration: 1
+resnet: 50
+snapshotindex: -2
+batch_size: 4
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
