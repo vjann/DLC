@@ -61,3 +61,5 @@
    time elapsed:0:28:13.828632
 2019-06-17 16:03:32.274556***create_labeled_video start
    VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4']
+2019-06-18 11:17:14.959189***create_labeled_video end
+   time elapsed:19:13:42.684633
