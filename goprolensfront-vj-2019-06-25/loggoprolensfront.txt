@@ -1,0 +1,21 @@
+
+2019-06-25 11:39:05.672966***extract_frames start
+2019-06-25 11:41:31.455900***extract_frames start
+2019-06-25 11:42:07.200431***extract_frames start
+2019-06-25 11:47:57.297480***extract_frames start
+2019-06-25 11:50:13.113938***extract_frames start
+2019-06-25 11:54:41.452179***extract_frames end
+   time elapsed:0:04:28.338241
+     136frames labeled
+2019-06-25 12:02:37.288499***label_frames start
+2019-06-25 12:03:45.691971***label_frames end
+   time elapsed:0:01:08.403472
+2019-06-25 12:04:07.394313***label_frames start
+2019-06-25 12:06:06.344086***label_frames start
+2019-06-25 12:50:16.261127***label_frames end
+   time elapsed:0:44:09.917041
+2019-06-25 12:51:30.266723***create_training_dataset start
+2019-06-25 12:51:41.424439***create_training_dataset end
+   time elapsed:0:00:11.157716
+2019-06-25 12:52:03.426148***train_network start
+   DESCRIPTION:1st network (iter-0), 60k iterations

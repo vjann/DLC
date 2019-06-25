@@ -63,3 +63,53 @@
    VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4']
 2019-06-18 11:17:14.959189***create_labeled_video end
    time elapsed:19:13:42.684633
+2019-06-24 10:13:20.351888***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp_Trim.ts']
+2019-06-24 10:14:14.174813***create_labeled_video end
+   time elapsed:0:00:53.822925
+2019-06-24 10:14:14.179800***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4']
+2019-06-24 10:18:29.970818***create_labeled_video end
+   time elapsed:0:04:15.791018
+2019-06-24 10:19:04.406068***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp_Trim.ts']
+2019-06-24 10:20:08.255952***create_labeled_video end
+   time elapsed:0:01:03.849884
+2019-06-24 10:20:08.259941***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4']
+2019-06-24 10:25:02.646431***create_labeled_video end
+   time elapsed:0:04:54.386490
+2019-06-24 10:29:38.031065***extract_outlier_frames start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4'], ALGORITHM: uncertain, PARAMETER: 0.1, NUM FRAMES: No Input Received
+2019-06-24 11:45:03.623183***extract_outlier_frames start
+   time elapsed:1:15:25.592118
+2019-06-24 11:51:14.455124***refine_frames start
+2019-06-24 11:52:55.584353***refine_frames end
+   time elapsed:0:01:41.129229
+2019-06-24 11:56:24.357556***refine_frames start
+2019-06-24 11:56:43.231660***refine_frames end
+   time elapsed:0:00:18.874104
+2019-06-24 11:57:31.940023***refine_frames start
+2019-06-24 11:59:10.740939***refine_frames start
+2019-06-24 11:59:15.702225***refine_frames start
+2019-06-24 11:59:46.046568***refine_frames start
+2019-06-24 12:00:04.161939***refine_frames start
+2019-06-24 12:00:05.599725***refine_frames end
+   time elapsed:0:00:01.437786
+2019-06-24 12:01:44.636703***extract_outlier_frames start
+2019-06-24 12:03:34.279503***extract_outlier_frames start
+2019-06-24 12:05:54.114881***extract_outlier_frames start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4'], ALGORITHM: uncertain, PARAMETER: 0.1, NUM FRAMES: 0
+2019-06-24 12:06:03.954547***extract_outlier_frames start
+   time elapsed:0:00:09.839666
+2019-06-24 12:06:11.839589***extract_outlier_frames start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4'], ALGORITHM: uncertain, PARAMETER: 0.1, NUM FRAMES: No Input Received
+2019-06-24 13:22:25.275575***extract_outlier_frames start
+   time elapsed:1:16:13.435986
+2019-06-24 14:59:06.252389***refine_frames start
+2019-06-24 15:03:06.965231***refine_frames end
+   time elapsed:0:04:00.712842
+2019-06-24 15:03:12.280213***extract_outlier_frames start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprofrontview-vj-2019-06-17\\videos\\gp.MP4'], ALGORITHM: uncertain, PARAMETER: 0.0001, NUM FRAMES: 0
+2019-06-24 15:03:25.446736***extract_outlier_frames start
+   time elapsed:0:00:13.166523
