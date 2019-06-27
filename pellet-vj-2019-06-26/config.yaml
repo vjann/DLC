@@ -1,0 +1,89 @@
+# Project definitions (do not edit)
+Task: pellet
+scorer: vj
+date: Jun26
+
+# Project path (change when moving around)
+project_path: C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\split1.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\split2.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\split3.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\split4.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_1.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_2.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_3.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_4.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_5.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_6.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_7.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_8.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_9.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_10.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_11.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_12.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_13.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_14.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_15.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_16.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\vjj14\Desktop\DeepLabCut\pellet-vj-2019-06-26\videos\1080_17.mp4:
+    crop: 0, 1920, 0, 1080
+bodyparts:
+- Nose
+- RightHand
+- Pellet
+start: 0
+stop: 1
+numframes2pick: 50
+
+# Plotting configuration
+pcutoff: 0.1
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.9
+iteration: 1
+resnet: 50
+snapshotindex: -2
+batch_size: 4
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

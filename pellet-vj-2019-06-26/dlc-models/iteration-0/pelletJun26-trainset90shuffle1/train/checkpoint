@@ -1,0 +1,6 @@
+model_checkpoint_path: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\dlc-models\\iteration-0\\pelletJun26-trainset90shuffle1\\train\\snapshot-150001"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\dlc-models\\iteration-0\\pelletJun26-trainset90shuffle1\\train\\snapshot-147000"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\dlc-models\\iteration-0\\pelletJun26-trainset90shuffle1\\train\\snapshot-148000"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\dlc-models\\iteration-0\\pelletJun26-trainset90shuffle1\\train\\snapshot-149000"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\dlc-models\\iteration-0\\pelletJun26-trainset90shuffle1\\train\\snapshot-150000"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\dlc-models\\iteration-0\\pelletJun26-trainset90shuffle1\\train\\snapshot-150001"
