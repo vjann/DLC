@@ -61,7 +61,7 @@ stop: 1
 numframes2pick: 50
 
 # Plotting configuration
-pcutoff: 0.1
+pcutoff: 0.9
 dotsize: 12
 alphavalue: 0.7
 colormap: jet
@@ -71,7 +71,7 @@ TrainingFraction:
 - 0.9
 iteration: 1
 resnet: 50
-snapshotindex: -2
+snapshotindex: -1
 batch_size: 4
 
 # Cropping Parameters (for analysis and outlier frame detection)

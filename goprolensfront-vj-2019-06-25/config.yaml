@@ -12,6 +12,14 @@ video_sets:
     crop: 0, 2704, 0, 1520
   C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4:
     crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\split1.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\split2.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\split3.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\split4.mp4:
+    crop: 0, 2704, 0, 1520
 bodyparts:
 - LeftEar
 - RightEar
@@ -28,7 +36,7 @@ stop: 1
 numframes2pick: 200
 
 # Plotting configuration
-pcutoff: 0.1
+pcutoff: 0.3
 dotsize: 9
 alphavalue: 0.7
 colormap: jet

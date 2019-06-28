@@ -246,3 +246,51 @@
 2019-06-26 16:20:19.433291***extract_frames end
    time elapsed:0:04:26.499423
      No Input Receivedframes labeled
+2019-06-28 10:19:04.077619***extract_frames start
+2019-06-28 10:19:20.372837***label_frames start
+2019-06-28 10:19:42.895994***label_frames end
+   time elapsed:0:00:22.523157
+2019-06-28 10:30:58.171136***label_frames start
+2019-06-28 10:37:39.876519***label_frames start
+2019-06-28 10:38:11.290231***label_frames end
+   time elapsed:0:00:31.413712
+2019-06-28 10:40:26.307494***label_frames start
+2019-06-28 10:43:19.926707***label_frames end
+   time elapsed:0:02:53.619213
+2019-06-28 10:45:14.445793***label_frames start
+2019-06-28 11:17:41.588359***label_frames end
+   time elapsed:0:32:27.142566
+2019-06-28 14:36:28.408992***create_training_dataset start
+2019-06-28 14:36:45.631018***create_training_dataset end
+   time elapsed:0:00:17.222026
+2019-06-28 14:53:31.540603***train_network start
+   DESCRIPTION:new iteration with more training of 1080p
+2019-06-28 15:25:43.591149***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\2019.06.26_Not_Injured_Straight_2.7k_120fps_vanilla_pellets_bad_piston_holder.MP4']
+2019-06-28 15:28:18.183646***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\2019.06.26_Not_Injured_Straight_2.7k_120fps_vanilla_pellets_bad_piston_holder.MP4']
+2019-06-28 15:28:43.601092***analyze_videos end
+   time elapsed:0:00:25.417446
+2019-06-28 15:29:31.783693***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\2019.06.26_Not_Injured_Straight_2.7k_120fps_vanilla_pellets_bad_piston_holder.MP4']
+2019-06-28 15:29:34.462421***analyze_videos end
+   time elapsed:0:00:02.678728
+2019-06-28 15:30:00.651596***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\2019.06.26_Not_Injured_Straight_2.7k_120fps_vanilla_pellets_bad_piston_holder.MP4']
+2019-06-28 15:30:20.939357***analyze_videos end
+   time elapsed:0:00:20.287761
+2019-06-28 15:46:15.370279***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\2.7k-6-26.mp4']
+2019-06-28 16:10:34.991216***analyze_videos end
+   time elapsed:0:24:19.620937
+2019-06-28 16:18:45.925668***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\2.7k-6-26.mp4']
+2019-06-28 16:23:36.818696***create_labeled_video end
+   time elapsed:0:04:50.893028
+2019-06-28 16:40:13.800474***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\2.7k-6-26.mp4']
+2019-06-28 16:45:04.860163***create_labeled_video end
+   time elapsed:0:04:51.059689
+2019-06-28 16:56:35.571029***train_network start
+2019-06-28 16:57:10.704132***train_network start
+   DESCRIPTION:retrain network with addition of training labels

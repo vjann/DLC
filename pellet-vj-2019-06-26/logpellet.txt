@@ -141,3 +141,38 @@
    time elapsed:0:00:10.882223
 2019-06-27 13:09:31.326713***train_network start
    DESCRIPTION:2nd network, added much more training, iter 150k
+2019-06-28 13:17:02.457978***train_network end
+   time elapsed:1 day, 0:07:31.131265
+2019-06-28 14:02:24.768028***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 14:02:27.647682***analyze_videos end
+   time elapsed:0:00:02.879654
+2019-06-28 14:02:28.166519***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 14:02:30.476509***evaluate_network start
+2019-06-28 14:03:16.937805***evaluate_network end
+   time elapsed:0:00:46.461296
+2019-06-28 14:03:16.949772***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 14:03:19.693026***analyze_videos end
+   time elapsed:0:00:02.743254
+2019-06-28 14:05:24.110987***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 14:23:48.756622***analyze_videos end
+   time elapsed:0:18:24.645635
+2019-06-28 14:34:47.402726***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 14:34:50.257964***analyze_videos end
+   time elapsed:0:00:02.855238
+2019-06-28 14:35:38.880317***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 14:40:01.795827***create_labeled_video end
+   time elapsed:0:04:22.915510
+2019-06-28 14:57:07.931981***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 15:01:25.349208***create_labeled_video end
+   time elapsed:0:04:17.417227
+2019-06-28 15:04:44.337706***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
+2019-06-28 15:08:57.181744***create_labeled_video end
+   time elapsed:0:04:12.844038
