@@ -8,8 +8,6 @@ project_path: C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\vjj14\Documents\GoProLens\Not_Injured_Straight_2.7k_120fps.MP4:
-    crop: 0, 2704, 0, 1520
   C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4:
     crop: 0, 2704, 0, 1520
   C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\split1.mp4:
@@ -20,20 +18,85 @@ video_sets:
     crop: 0, 2704, 0, 1520
   C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\split4.mp4:
     crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_13.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_21.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_34.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_41.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_44.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_49.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_55.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_61.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_64.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_76.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_83.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_88.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_104.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_112.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_123.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_131.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_136.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_153.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_169.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_181.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_189.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_202.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_242.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_252.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_257.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_271.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_284.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_294.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_309.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_322.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_349.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_364.mp4:
+    crop: 472, 2251, 0, 1183
+  C:\Users\vjj14\Desktop\DeepLabCut\goprolensfront-vj-2019-06-25\videos\B_375.mp4:
+    crop: 472, 2251, 0, 1183
 bodyparts:
-- LeftEar
-- RightEar
 - Nose
-- OtherHand
-- DomHand
+- Pellet 
+- DomInside
+- DomOutside
 - Index
 - Middle
 - Ring
 - Pinky
-- Pellet
+- OtherHand
 start: 0
 stop: 1
-numframes2pick: 200
+numframes2pick: 100
 
 # Plotting configuration
 pcutoff: 0.3

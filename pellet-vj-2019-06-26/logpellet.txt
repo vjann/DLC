@@ -176,3 +176,10 @@
    VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\pellet-vj-2019-06-26\\videos\\Not_Injured_Straight_2.7k_120fps_Trim_284.mp4']
 2019-06-28 15:08:57.181744***create_labeled_video end
    time elapsed:0:04:12.844038
+2019-07-01 15:55:13.312021***label_frames start
+2019-07-01 15:55:47.404472***label_frames end
+   time elapsed:0:00:34.092451
+2019-07-01 16:03:30.337554***label_frames start
+2019-07-01 16:03:34.596983***label_frames end
+   time elapsed:0:00:04.259429
+2019-07-01 16:04:15.353111***label_frames start

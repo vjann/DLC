@@ -8,23 +8,21 @@ all_joints:
 - - 6
 - - 7
 - - 8
-- - 9
 all_joints_names:
-- LeftEar
-- RightEar
 - Nose
-- OtherHand
-- DomHand
+- Pellet
+- DomInside
+- DomOutside
 - Index
 - Middle
 - Ring
 - Pinky
-- Pellet
+- OtherHand
 dataset: training-datasets\iteration-0\UnaugmentedDataSet_goprolensfrontJun25\goprolensfront_vj90shuffle1.mat
 global_scale: 0.8
 init_weights: C:\Users\vjj14\.conda\envs\dlc-windowsGPU\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
 location_refinement: true
 locref_stdev: 7.2801
 net_type: resnet_50
-num_joints: 10
+num_joints: 9
 scoremap_dir: test

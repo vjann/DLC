@@ -1,0 +1,1282 @@
+2019-07-01 17:54:03 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-01 17:55:58 iteration: 100 loss: 0.0642 lr: 0.005
+2019-07-01 17:57:21 iteration: 200 loss: 0.0164 lr: 0.005
+2019-07-01 17:58:20 iteration: 300 loss: 0.0158 lr: 0.005
+2019-07-01 17:59:18 iteration: 400 loss: 0.0139 lr: 0.005
+2019-07-01 18:00:13 iteration: 500 loss: 0.0125 lr: 0.005
+2019-07-01 18:01:05 iteration: 600 loss: 0.0122 lr: 0.005
+2019-07-01 18:01:57 iteration: 700 loss: 0.0124 lr: 0.005
+2019-07-01 18:02:47 iteration: 800 loss: 0.0120 lr: 0.005
+2019-07-01 18:03:37 iteration: 900 loss: 0.0111 lr: 0.005
+2019-07-01 18:04:21 iteration: 1000 loss: 0.0105 lr: 0.005
+2019-07-01 18:05:09 iteration: 1100 loss: 0.0092 lr: 0.005
+2019-07-01 18:05:53 iteration: 1200 loss: 0.0099 lr: 0.005
+2019-07-01 18:06:31 iteration: 1300 loss: 0.0092 lr: 0.005
+2019-07-01 18:07:13 iteration: 1400 loss: 0.0084 lr: 0.005
+2019-07-01 18:07:49 iteration: 1500 loss: 0.0085 lr: 0.005
+2019-07-01 18:08:26 iteration: 1600 loss: 0.0078 lr: 0.005
+2019-07-01 18:09:02 iteration: 1700 loss: 0.0074 lr: 0.005
+2019-07-01 18:09:36 iteration: 1800 loss: 0.0082 lr: 0.005
+2019-07-01 18:10:18 iteration: 1900 loss: 0.0087 lr: 0.005
+2019-07-01 18:10:51 iteration: 2000 loss: 0.0075 lr: 0.005
+2019-07-01 18:11:28 iteration: 2100 loss: 0.0082 lr: 0.005
+2019-07-01 18:12:03 iteration: 2200 loss: 0.0075 lr: 0.005
+2019-07-01 18:12:33 iteration: 2300 loss: 0.0069 lr: 0.005
+2019-07-01 18:13:02 iteration: 2400 loss: 0.0067 lr: 0.005
+2019-07-01 18:13:35 iteration: 2500 loss: 0.0069 lr: 0.005
+2019-07-01 18:14:08 iteration: 2600 loss: 0.0070 lr: 0.005
+2019-07-01 18:14:36 iteration: 2700 loss: 0.0069 lr: 0.005
+2019-07-01 18:15:11 iteration: 2800 loss: 0.0070 lr: 0.005
+2019-07-01 18:15:43 iteration: 2900 loss: 0.0068 lr: 0.005
+2019-07-01 18:16:11 iteration: 3000 loss: 0.0061 lr: 0.005
+2019-07-01 18:16:47 iteration: 3100 loss: 0.0064 lr: 0.005
+2019-07-01 18:17:14 iteration: 3200 loss: 0.0059 lr: 0.005
+2019-07-01 18:17:44 iteration: 3300 loss: 0.0066 lr: 0.005
+2019-07-01 18:18:14 iteration: 3400 loss: 0.0065 lr: 0.005
+2019-07-01 18:18:44 iteration: 3500 loss: 0.0060 lr: 0.005
+2019-07-01 18:19:11 iteration: 3600 loss: 0.0070 lr: 0.005
+2019-07-01 18:19:39 iteration: 3700 loss: 0.0069 lr: 0.005
+2019-07-01 18:20:15 iteration: 3800 loss: 0.0065 lr: 0.005
+2019-07-01 18:20:54 iteration: 3900 loss: 0.0059 lr: 0.005
+2019-07-01 18:21:29 iteration: 4000 loss: 0.0064 lr: 0.005
+2019-07-01 18:22:04 iteration: 4100 loss: 0.0057 lr: 0.005
+2019-07-01 18:22:37 iteration: 4200 loss: 0.0054 lr: 0.005
+2019-07-01 18:23:15 iteration: 4300 loss: 0.0060 lr: 0.005
+2019-07-01 18:23:46 iteration: 4400 loss: 0.0058 lr: 0.005
+2019-07-01 18:24:21 iteration: 4500 loss: 0.0064 lr: 0.005
+2019-07-01 18:24:56 iteration: 4600 loss: 0.0068 lr: 0.005
+2019-07-01 18:25:27 iteration: 4700 loss: 0.0053 lr: 0.005
+2019-07-01 18:26:00 iteration: 4800 loss: 0.0053 lr: 0.005
+2019-07-01 18:26:30 iteration: 4900 loss: 0.0061 lr: 0.005
+2019-07-01 18:26:57 iteration: 5000 loss: 0.0060 lr: 0.005
+2019-07-01 18:27:34 iteration: 5100 loss: 0.0051 lr: 0.005
+2019-07-01 18:28:03 iteration: 5200 loss: 0.0061 lr: 0.005
+2019-07-01 18:28:32 iteration: 5300 loss: 0.0051 lr: 0.005
+2019-07-01 18:29:02 iteration: 5400 loss: 0.0060 lr: 0.005
+2019-07-01 18:29:34 iteration: 5500 loss: 0.0053 lr: 0.005
+2019-07-01 18:30:04 iteration: 5600 loss: 0.0050 lr: 0.005
+2019-07-01 18:30:32 iteration: 5700 loss: 0.0057 lr: 0.005
+2019-07-01 18:31:00 iteration: 5800 loss: 0.0054 lr: 0.005
+2019-07-01 18:31:29 iteration: 5900 loss: 0.0052 lr: 0.005
+2019-07-01 18:31:57 iteration: 6000 loss: 0.0051 lr: 0.005
+2019-07-01 18:32:29 iteration: 6100 loss: 0.0057 lr: 0.005
+2019-07-01 18:33:02 iteration: 6200 loss: 0.0051 lr: 0.005
+2019-07-01 18:33:30 iteration: 6300 loss: 0.0056 lr: 0.005
+2019-07-01 18:33:58 iteration: 6400 loss: 0.0045 lr: 0.005
+2019-07-01 18:34:27 iteration: 6500 loss: 0.0051 lr: 0.005
+2019-07-01 18:34:58 iteration: 6600 loss: 0.0052 lr: 0.005
+2019-07-01 18:35:30 iteration: 6700 loss: 0.0053 lr: 0.005
+2019-07-01 18:36:01 iteration: 6800 loss: 0.0050 lr: 0.005
+2019-07-01 18:36:27 iteration: 6900 loss: 0.0048 lr: 0.005
+2019-07-01 18:36:54 iteration: 7000 loss: 0.0048 lr: 0.005
+2019-07-01 18:37:26 iteration: 7100 loss: 0.0046 lr: 0.005
+2019-07-01 18:37:53 iteration: 7200 loss: 0.0050 lr: 0.005
+2019-07-01 18:38:26 iteration: 7300 loss: 0.0046 lr: 0.005
+2019-07-01 18:38:52 iteration: 7400 loss: 0.0048 lr: 0.005
+2019-07-01 18:39:17 iteration: 7500 loss: 0.0048 lr: 0.005
+2019-07-01 18:39:41 iteration: 7600 loss: 0.0052 lr: 0.005
+2019-07-01 18:40:11 iteration: 7700 loss: 0.0047 lr: 0.005
+2019-07-01 18:40:41 iteration: 7800 loss: 0.0049 lr: 0.005
+2019-07-01 18:41:08 iteration: 7900 loss: 0.0048 lr: 0.005
+2019-07-01 18:41:38 iteration: 8000 loss: 0.0051 lr: 0.005
+2019-07-01 18:42:05 iteration: 8100 loss: 0.0044 lr: 0.005
+2019-07-01 18:42:34 iteration: 8200 loss: 0.0049 lr: 0.005
+2019-07-01 18:43:00 iteration: 8300 loss: 0.0043 lr: 0.005
+2019-07-01 18:43:26 iteration: 8400 loss: 0.0045 lr: 0.005
+2019-07-01 18:43:51 iteration: 8500 loss: 0.0048 lr: 0.005
+2019-07-01 18:44:16 iteration: 8600 loss: 0.0042 lr: 0.005
+2019-07-01 18:44:41 iteration: 8700 loss: 0.0050 lr: 0.005
+2019-07-01 18:45:07 iteration: 8800 loss: 0.0050 lr: 0.005
+2019-07-01 18:45:36 iteration: 8900 loss: 0.0050 lr: 0.005
+2019-07-01 18:46:02 iteration: 9000 loss: 0.0047 lr: 0.005
+2019-07-01 18:46:28 iteration: 9100 loss: 0.0042 lr: 0.005
+2019-07-01 18:46:53 iteration: 9200 loss: 0.0043 lr: 0.005
+2019-07-01 18:47:18 iteration: 9300 loss: 0.0044 lr: 0.005
+2019-07-01 18:47:41 iteration: 9400 loss: 0.0049 lr: 0.005
+2019-07-01 18:48:06 iteration: 9500 loss: 0.0043 lr: 0.005
+2019-07-01 18:48:32 iteration: 9600 loss: 0.0044 lr: 0.005
+2019-07-01 18:48:56 iteration: 9700 loss: 0.0045 lr: 0.005
+2019-07-01 18:49:21 iteration: 9800 loss: 0.0043 lr: 0.005
+2019-07-01 18:49:46 iteration: 9900 loss: 0.0039 lr: 0.005
+2019-07-01 18:50:08 iteration: 10000 loss: 0.0044 lr: 0.005
+2019-07-01 18:50:40 iteration: 10100 loss: 0.0067 lr: 0.02
+2019-07-01 18:51:04 iteration: 10200 loss: 0.0065 lr: 0.02
+2019-07-01 18:51:29 iteration: 10300 loss: 0.0066 lr: 0.02
+2019-07-01 18:51:51 iteration: 10400 loss: 0.0062 lr: 0.02
+2019-07-01 18:52:15 iteration: 10500 loss: 0.0062 lr: 0.02
+2019-07-01 18:52:38 iteration: 10600 loss: 0.0063 lr: 0.02
+2019-07-01 18:53:02 iteration: 10700 loss: 0.0067 lr: 0.02
+2019-07-01 18:53:28 iteration: 10800 loss: 0.0059 lr: 0.02
+2019-07-01 18:53:54 iteration: 10900 loss: 0.0063 lr: 0.02
+2019-07-01 18:54:17 iteration: 11000 loss: 0.0060 lr: 0.02
+2019-07-01 18:54:46 iteration: 11100 loss: 0.0057 lr: 0.02
+2019-07-01 18:55:13 iteration: 11200 loss: 0.0055 lr: 0.02
+2019-07-01 18:55:39 iteration: 11300 loss: 0.0057 lr: 0.02
+2019-07-01 18:56:04 iteration: 11400 loss: 0.0055 lr: 0.02
+2019-07-01 18:56:27 iteration: 11500 loss: 0.0053 lr: 0.02
+2019-07-01 18:56:50 iteration: 11600 loss: 0.0054 lr: 0.02
+2019-07-01 18:57:15 iteration: 11700 loss: 0.0058 lr: 0.02
+2019-07-01 18:57:41 iteration: 11800 loss: 0.0054 lr: 0.02
+2019-07-01 18:58:05 iteration: 11900 loss: 0.0059 lr: 0.02
+2019-07-01 18:58:29 iteration: 12000 loss: 0.0050 lr: 0.02
+2019-07-01 18:58:55 iteration: 12100 loss: 0.0049 lr: 0.02
+2019-07-01 18:59:20 iteration: 12200 loss: 0.0047 lr: 0.02
+2019-07-01 18:59:44 iteration: 12300 loss: 0.0047 lr: 0.02
+2019-07-01 19:00:07 iteration: 12400 loss: 0.0047 lr: 0.02
+2019-07-01 19:00:32 iteration: 12500 loss: 0.0046 lr: 0.02
+2019-07-01 19:00:54 iteration: 12600 loss: 0.0052 lr: 0.02
+2019-07-01 19:01:17 iteration: 12700 loss: 0.0047 lr: 0.02
+2019-07-01 19:01:42 iteration: 12800 loss: 0.0048 lr: 0.02
+2019-07-01 19:02:08 iteration: 12900 loss: 0.0048 lr: 0.02
+2019-07-01 19:02:30 iteration: 13000 loss: 0.0044 lr: 0.02
+2019-07-01 19:02:58 iteration: 13100 loss: 0.0051 lr: 0.02
+2019-07-01 19:03:21 iteration: 13200 loss: 0.0048 lr: 0.02
+2019-07-01 19:03:42 iteration: 13300 loss: 0.0046 lr: 0.02
+2019-07-01 19:04:05 iteration: 13400 loss: 0.0044 lr: 0.02
+2019-07-01 19:04:27 iteration: 13500 loss: 0.0041 lr: 0.02
+2019-07-01 19:04:47 iteration: 13600 loss: 0.0047 lr: 0.02
+2019-07-01 19:05:12 iteration: 13700 loss: 0.0044 lr: 0.02
+2019-07-01 19:05:34 iteration: 13800 loss: 0.0039 lr: 0.02
+2019-07-01 19:05:59 iteration: 13900 loss: 0.0039 lr: 0.02
+2019-07-01 19:06:20 iteration: 14000 loss: 0.0044 lr: 0.02
+2019-07-01 19:06:43 iteration: 14100 loss: 0.0041 lr: 0.02
+2019-07-01 19:07:05 iteration: 14200 loss: 0.0048 lr: 0.02
+2019-07-01 19:07:28 iteration: 14300 loss: 0.0042 lr: 0.02
+2019-07-01 19:07:51 iteration: 14400 loss: 0.0045 lr: 0.02
+2019-07-01 19:08:11 iteration: 14500 loss: 0.0042 lr: 0.02
+2019-07-01 19:08:34 iteration: 14600 loss: 0.0046 lr: 0.02
+2019-07-01 19:08:58 iteration: 14700 loss: 0.0045 lr: 0.02
+2019-07-01 19:09:20 iteration: 14800 loss: 0.0042 lr: 0.02
+2019-07-01 19:09:43 iteration: 14900 loss: 0.0040 lr: 0.02
+2019-07-01 19:10:07 iteration: 15000 loss: 0.0042 lr: 0.02
+2019-07-01 19:10:33 iteration: 15100 loss: 0.0041 lr: 0.02
+2019-07-01 19:10:58 iteration: 15200 loss: 0.0042 lr: 0.02
+2019-07-01 19:11:20 iteration: 15300 loss: 0.0044 lr: 0.02
+2019-07-01 19:11:43 iteration: 15400 loss: 0.0037 lr: 0.02
+2019-07-01 19:12:05 iteration: 15500 loss: 0.0046 lr: 0.02
+2019-07-01 19:12:27 iteration: 15600 loss: 0.0038 lr: 0.02
+2019-07-01 19:12:49 iteration: 15700 loss: 0.0043 lr: 0.02
+2019-07-01 19:13:12 iteration: 15800 loss: 0.0038 lr: 0.02
+2019-07-01 19:13:35 iteration: 15900 loss: 0.0042 lr: 0.02
+2019-07-01 19:13:55 iteration: 16000 loss: 0.0038 lr: 0.02
+2019-07-01 19:14:19 iteration: 16100 loss: 0.0039 lr: 0.02
+2019-07-01 19:14:39 iteration: 16200 loss: 0.0040 lr: 0.02
+2019-07-01 19:14:59 iteration: 16300 loss: 0.0039 lr: 0.02
+2019-07-01 19:15:22 iteration: 16400 loss: 0.0037 lr: 0.02
+2019-07-01 19:15:46 iteration: 16500 loss: 0.0040 lr: 0.02
+2019-07-01 19:16:10 iteration: 16600 loss: 0.0039 lr: 0.02
+2019-07-01 19:16:32 iteration: 16700 loss: 0.0037 lr: 0.02
+2019-07-01 19:16:53 iteration: 16800 loss: 0.0040 lr: 0.02
+2019-07-01 19:17:18 iteration: 16900 loss: 0.0038 lr: 0.02
+2019-07-01 19:17:42 iteration: 17000 loss: 0.0037 lr: 0.02
+2019-07-01 19:18:08 iteration: 17100 loss: 0.0037 lr: 0.02
+2019-07-01 19:18:32 iteration: 17200 loss: 0.0035 lr: 0.02
+2019-07-01 19:18:52 iteration: 17300 loss: 0.0034 lr: 0.02
+2019-07-01 19:19:11 iteration: 17400 loss: 0.0035 lr: 0.02
+2019-07-01 19:19:32 iteration: 17500 loss: 0.0042 lr: 0.02
+2019-07-01 19:19:55 iteration: 17600 loss: 0.0038 lr: 0.02
+2019-07-01 19:20:16 iteration: 17700 loss: 0.0038 lr: 0.02
+2019-07-01 19:20:38 iteration: 17800 loss: 0.0039 lr: 0.02
+2019-07-01 19:21:00 iteration: 17900 loss: 0.0039 lr: 0.02
+2019-07-01 19:21:22 iteration: 18000 loss: 0.0036 lr: 0.02
+2019-07-01 19:21:45 iteration: 18100 loss: 0.0039 lr: 0.02
+2019-07-01 19:22:04 iteration: 18200 loss: 0.0040 lr: 0.02
+2019-07-01 19:22:26 iteration: 18300 loss: 0.0035 lr: 0.02
+2019-07-01 19:22:46 iteration: 18400 loss: 0.0038 lr: 0.02
+2019-07-01 19:23:08 iteration: 18500 loss: 0.0036 lr: 0.02
+2019-07-01 19:23:30 iteration: 18600 loss: 0.0034 lr: 0.02
+2019-07-01 19:23:53 iteration: 18700 loss: 0.0035 lr: 0.02
+2019-07-01 19:24:14 iteration: 18800 loss: 0.0033 lr: 0.02
+2019-07-01 19:24:35 iteration: 18900 loss: 0.0037 lr: 0.02
+2019-07-01 19:24:59 iteration: 19000 loss: 0.0037 lr: 0.02
+2019-07-01 19:25:23 iteration: 19100 loss: 0.0033 lr: 0.02
+2019-07-01 19:25:44 iteration: 19200 loss: 0.0036 lr: 0.02
+2019-07-01 19:26:05 iteration: 19300 loss: 0.0036 lr: 0.02
+2019-07-01 19:26:25 iteration: 19400 loss: 0.0032 lr: 0.02
+2019-07-01 19:26:45 iteration: 19500 loss: 0.0040 lr: 0.02
+2019-07-01 19:27:07 iteration: 19600 loss: 0.0035 lr: 0.02
+2019-07-01 19:27:25 iteration: 19700 loss: 0.0032 lr: 0.02
+2019-07-01 19:27:47 iteration: 19800 loss: 0.0035 lr: 0.02
+2019-07-01 19:28:06 iteration: 19900 loss: 0.0033 lr: 0.02
+2019-07-01 19:28:27 iteration: 20000 loss: 0.0035 lr: 0.02
+2019-07-01 19:28:53 iteration: 20100 loss: 0.0035 lr: 0.02
+2019-07-01 19:29:11 iteration: 20200 loss: 0.0035 lr: 0.02
+2019-07-01 19:29:31 iteration: 20300 loss: 0.0035 lr: 0.02
+2019-07-01 19:29:50 iteration: 20400 loss: 0.0036 lr: 0.02
+2019-07-01 19:30:12 iteration: 20500 loss: 0.0033 lr: 0.02
+2019-07-01 19:30:32 iteration: 20600 loss: 0.0033 lr: 0.02
+2019-07-01 19:30:51 iteration: 20700 loss: 0.0034 lr: 0.02
+2019-07-01 19:31:12 iteration: 20800 loss: 0.0033 lr: 0.02
+2019-07-01 19:31:33 iteration: 20900 loss: 0.0035 lr: 0.02
+2019-07-01 19:31:50 iteration: 21000 loss: 0.0032 lr: 0.02
+2019-07-01 19:32:15 iteration: 21100 loss: 0.0032 lr: 0.02
+2019-07-01 19:32:36 iteration: 21200 loss: 0.0032 lr: 0.02
+2019-07-01 19:32:59 iteration: 21300 loss: 0.0032 lr: 0.02
+2019-07-01 19:33:21 iteration: 21400 loss: 0.0034 lr: 0.02
+2019-07-01 19:33:39 iteration: 21500 loss: 0.0028 lr: 0.02
+2019-07-01 19:33:58 iteration: 21600 loss: 0.0031 lr: 0.02
+2019-07-01 19:34:19 iteration: 21700 loss: 0.0028 lr: 0.02
+2019-07-01 19:34:38 iteration: 21800 loss: 0.0035 lr: 0.02
+2019-07-01 19:34:56 iteration: 21900 loss: 0.0033 lr: 0.02
+2019-07-01 19:35:15 iteration: 22000 loss: 0.0033 lr: 0.02
+2019-07-01 19:35:37 iteration: 22100 loss: 0.0031 lr: 0.02
+2019-07-01 19:35:57 iteration: 22200 loss: 0.0032 lr: 0.02
+2019-07-01 19:36:21 iteration: 22300 loss: 0.0034 lr: 0.02
+2019-07-01 19:36:39 iteration: 22400 loss: 0.0033 lr: 0.02
+2019-07-01 19:36:59 iteration: 22500 loss: 0.0035 lr: 0.02
+2019-07-01 19:37:20 iteration: 22600 loss: 0.0032 lr: 0.02
+2019-07-01 19:37:43 iteration: 22700 loss: 0.0031 lr: 0.02
+2019-07-01 19:38:03 iteration: 22800 loss: 0.0033 lr: 0.02
+2019-07-01 19:38:22 iteration: 22900 loss: 0.0029 lr: 0.02
+2019-07-01 19:38:43 iteration: 23000 loss: 0.0034 lr: 0.02
+2019-07-01 19:39:07 iteration: 23100 loss: 0.0027 lr: 0.02
+2019-07-01 19:39:27 iteration: 23200 loss: 0.0031 lr: 0.02
+2019-07-01 19:39:46 iteration: 23300 loss: 0.0033 lr: 0.02
+2019-07-01 19:40:04 iteration: 23400 loss: 0.0029 lr: 0.02
+2019-07-01 19:40:24 iteration: 23500 loss: 0.0029 lr: 0.02
+2019-07-01 19:40:44 iteration: 23600 loss: 0.0033 lr: 0.02
+2019-07-01 19:41:06 iteration: 23700 loss: 0.0032 lr: 0.02
+2019-07-01 19:41:24 iteration: 23800 loss: 0.0028 lr: 0.02
+2019-07-01 19:41:44 iteration: 23900 loss: 0.0034 lr: 0.02
+2019-07-01 19:42:05 iteration: 24000 loss: 0.0031 lr: 0.02
+2019-07-01 19:42:27 iteration: 24100 loss: 0.0035 lr: 0.02
+2019-07-01 19:42:45 iteration: 24200 loss: 0.0030 lr: 0.02
+2019-07-01 19:43:06 iteration: 24300 loss: 0.0031 lr: 0.02
+2019-07-01 19:43:25 iteration: 24400 loss: 0.0029 lr: 0.02
+2019-07-01 19:43:46 iteration: 24500 loss: 0.0031 lr: 0.02
+2019-07-01 19:44:05 iteration: 24600 loss: 0.0030 lr: 0.02
+2019-07-01 19:44:23 iteration: 24700 loss: 0.0028 lr: 0.02
+2019-07-01 19:44:43 iteration: 24800 loss: 0.0032 lr: 0.02
+2019-07-01 19:45:01 iteration: 24900 loss: 0.0029 lr: 0.02
+2019-07-01 19:45:20 iteration: 25000 loss: 0.0031 lr: 0.02
+2019-07-01 19:45:41 iteration: 25100 loss: 0.0030 lr: 0.02
+2019-07-01 19:46:04 iteration: 25200 loss: 0.0031 lr: 0.02
+2019-07-01 19:46:24 iteration: 25300 loss: 0.0031 lr: 0.02
+2019-07-01 19:46:45 iteration: 25400 loss: 0.0028 lr: 0.02
+2019-07-01 19:47:03 iteration: 25500 loss: 0.0026 lr: 0.02
+2019-07-01 19:47:25 iteration: 25600 loss: 0.0026 lr: 0.02
+2019-07-01 19:47:46 iteration: 25700 loss: 0.0032 lr: 0.02
+2019-07-01 19:48:04 iteration: 25800 loss: 0.0029 lr: 0.02
+2019-07-01 19:48:23 iteration: 25900 loss: 0.0027 lr: 0.02
+2019-07-01 19:48:41 iteration: 26000 loss: 0.0028 lr: 0.02
+2019-07-01 19:49:02 iteration: 26100 loss: 0.0028 lr: 0.02
+2019-07-01 19:49:21 iteration: 26200 loss: 0.0029 lr: 0.02
+2019-07-01 19:49:40 iteration: 26300 loss: 0.0031 lr: 0.02
+2019-07-01 19:49:56 iteration: 26400 loss: 0.0027 lr: 0.02
+2019-07-01 19:50:14 iteration: 26500 loss: 0.0029 lr: 0.02
+2019-07-01 19:50:32 iteration: 26600 loss: 0.0029 lr: 0.02
+2019-07-01 19:50:51 iteration: 26700 loss: 0.0030 lr: 0.02
+2019-07-01 19:51:09 iteration: 26800 loss: 0.0033 lr: 0.02
+2019-07-01 19:51:29 iteration: 26900 loss: 0.0029 lr: 0.02
+2019-07-01 19:51:50 iteration: 27000 loss: 0.0029 lr: 0.02
+2019-07-01 19:52:12 iteration: 27100 loss: 0.0030 lr: 0.02
+2019-07-01 19:52:28 iteration: 27200 loss: 0.0028 lr: 0.02
+2019-07-01 19:52:45 iteration: 27300 loss: 0.0029 lr: 0.02
+2019-07-01 19:53:04 iteration: 27400 loss: 0.0028 lr: 0.02
+2019-07-01 19:53:22 iteration: 27500 loss: 0.0028 lr: 0.02
+2019-07-01 19:53:41 iteration: 27600 loss: 0.0028 lr: 0.02
+2019-07-01 19:54:01 iteration: 27700 loss: 0.0025 lr: 0.02
+2019-07-01 19:54:18 iteration: 27800 loss: 0.0030 lr: 0.02
+2019-07-01 19:54:35 iteration: 27900 loss: 0.0030 lr: 0.02
+2019-07-01 19:54:55 iteration: 28000 loss: 0.0031 lr: 0.02
+2019-07-01 19:55:16 iteration: 28100 loss: 0.0031 lr: 0.02
+2019-07-01 19:55:37 iteration: 28200 loss: 0.0026 lr: 0.02
+2019-07-01 19:55:56 iteration: 28300 loss: 0.0027 lr: 0.02
+2019-07-01 19:56:14 iteration: 28400 loss: 0.0024 lr: 0.02
+2019-07-01 19:56:32 iteration: 28500 loss: 0.0031 lr: 0.02
+2019-07-01 19:56:51 iteration: 28600 loss: 0.0027 lr: 0.02
+2019-07-01 19:57:11 iteration: 28700 loss: 0.0031 lr: 0.02
+2019-07-01 19:57:28 iteration: 28800 loss: 0.0027 lr: 0.02
+2019-07-01 19:57:48 iteration: 28900 loss: 0.0028 lr: 0.02
+2019-07-01 19:58:05 iteration: 29000 loss: 0.0031 lr: 0.02
+2019-07-01 19:58:29 iteration: 29100 loss: 0.0028 lr: 0.02
+2019-07-01 19:58:48 iteration: 29200 loss: 0.0027 lr: 0.02
+2019-07-01 19:59:06 iteration: 29300 loss: 0.0032 lr: 0.02
+2019-07-01 19:59:26 iteration: 29400 loss: 0.0029 lr: 0.02
+2019-07-01 19:59:44 iteration: 29500 loss: 0.0030 lr: 0.02
+2019-07-01 20:00:03 iteration: 29600 loss: 0.0025 lr: 0.02
+2019-07-01 20:00:24 iteration: 29700 loss: 0.0028 lr: 0.02
+2019-07-01 20:00:42 iteration: 29800 loss: 0.0033 lr: 0.02
+2019-07-01 20:01:01 iteration: 29900 loss: 0.0027 lr: 0.02
+2019-07-01 20:01:21 iteration: 30000 loss: 0.0028 lr: 0.02
+2019-07-01 20:01:46 iteration: 30100 loss: 0.0026 lr: 0.02
+2019-07-01 20:02:06 iteration: 30200 loss: 0.0030 lr: 0.02
+2019-07-01 20:02:23 iteration: 30300 loss: 0.0028 lr: 0.02
+2019-07-01 20:02:41 iteration: 30400 loss: 0.0028 lr: 0.02
+2019-07-01 20:02:59 iteration: 30500 loss: 0.0027 lr: 0.02
+2019-07-01 20:03:16 iteration: 30600 loss: 0.0029 lr: 0.02
+2019-07-01 20:03:36 iteration: 30700 loss: 0.0026 lr: 0.02
+2019-07-01 20:03:55 iteration: 30800 loss: 0.0027 lr: 0.02
+2019-07-01 20:04:12 iteration: 30900 loss: 0.0027 lr: 0.02
+2019-07-01 20:04:32 iteration: 31000 loss: 0.0029 lr: 0.02
+2019-07-01 20:04:55 iteration: 31100 loss: 0.0026 lr: 0.02
+2019-07-01 20:05:15 iteration: 31200 loss: 0.0028 lr: 0.02
+2019-07-01 20:05:33 iteration: 31300 loss: 0.0027 lr: 0.02
+2019-07-01 20:05:52 iteration: 31400 loss: 0.0025 lr: 0.02
+2019-07-01 20:06:09 iteration: 31500 loss: 0.0028 lr: 0.02
+2019-07-01 20:06:27 iteration: 31600 loss: 0.0024 lr: 0.02
+2019-07-01 20:06:46 iteration: 31700 loss: 0.0025 lr: 0.02
+2019-07-01 20:07:03 iteration: 31800 loss: 0.0024 lr: 0.02
+2019-07-01 20:07:18 iteration: 31900 loss: 0.0026 lr: 0.02
+2019-07-01 20:07:36 iteration: 32000 loss: 0.0029 lr: 0.02
+2019-07-01 20:07:56 iteration: 32100 loss: 0.0025 lr: 0.02
+2019-07-01 20:08:16 iteration: 32200 loss: 0.0028 lr: 0.02
+2019-07-01 20:08:33 iteration: 32300 loss: 0.0021 lr: 0.02
+2019-07-01 20:08:52 iteration: 32400 loss: 0.0026 lr: 0.02
+2019-07-01 20:09:09 iteration: 32500 loss: 0.0027 lr: 0.02
+2019-07-01 20:09:25 iteration: 32600 loss: 0.0032 lr: 0.02
+2019-07-01 20:09:43 iteration: 32700 loss: 0.0024 lr: 0.02
+2019-07-01 20:10:00 iteration: 32800 loss: 0.0025 lr: 0.02
+2019-07-01 20:10:18 iteration: 32900 loss: 0.0025 lr: 0.02
+2019-07-01 20:10:38 iteration: 33000 loss: 0.0026 lr: 0.02
+2019-07-01 20:10:59 iteration: 33100 loss: 0.0025 lr: 0.02
+2019-07-01 20:11:18 iteration: 33200 loss: 0.0028 lr: 0.02
+2019-07-01 20:11:37 iteration: 33300 loss: 0.0025 lr: 0.02
+2019-07-01 20:11:57 iteration: 33400 loss: 0.0024 lr: 0.02
+2019-07-01 20:12:16 iteration: 33500 loss: 0.0027 lr: 0.02
+2019-07-01 20:12:34 iteration: 33600 loss: 0.0025 lr: 0.02
+2019-07-01 20:12:53 iteration: 33700 loss: 0.0026 lr: 0.02
+2019-07-01 20:13:11 iteration: 33800 loss: 0.0029 lr: 0.02
+2019-07-01 20:13:28 iteration: 33900 loss: 0.0025 lr: 0.02
+2019-07-01 20:13:46 iteration: 34000 loss: 0.0025 lr: 0.02
+2019-07-01 20:14:06 iteration: 34100 loss: 0.0026 lr: 0.02
+2019-07-01 20:14:24 iteration: 34200 loss: 0.0028 lr: 0.02
+2019-07-01 20:14:43 iteration: 34300 loss: 0.0025 lr: 0.02
+2019-07-01 20:15:03 iteration: 34400 loss: 0.0023 lr: 0.02
+2019-07-01 20:15:21 iteration: 34500 loss: 0.0027 lr: 0.02
+2019-07-01 20:15:39 iteration: 34600 loss: 0.0026 lr: 0.02
+2019-07-01 20:15:57 iteration: 34700 loss: 0.0027 lr: 0.02
+2019-07-01 20:16:14 iteration: 34800 loss: 0.0029 lr: 0.02
+2019-07-01 20:16:31 iteration: 34900 loss: 0.0027 lr: 0.02
+2019-07-01 20:16:49 iteration: 35000 loss: 0.0024 lr: 0.02
+2019-07-01 20:17:12 iteration: 35100 loss: 0.0027 lr: 0.02
+2019-07-01 20:17:29 iteration: 35200 loss: 0.0025 lr: 0.02
+2019-07-01 20:17:44 iteration: 35300 loss: 0.0022 lr: 0.02
+2019-07-01 20:18:04 iteration: 35400 loss: 0.0022 lr: 0.02
+2019-07-01 20:18:28 iteration: 35500 loss: 0.0029 lr: 0.02
+2019-07-01 20:18:46 iteration: 35600 loss: 0.0022 lr: 0.02
+2019-07-01 20:19:06 iteration: 35700 loss: 0.0023 lr: 0.02
+2019-07-01 20:19:25 iteration: 35800 loss: 0.0027 lr: 0.02
+2019-07-01 20:19:43 iteration: 35900 loss: 0.0024 lr: 0.02
+2019-07-01 20:20:00 iteration: 36000 loss: 0.0026 lr: 0.02
+2019-07-01 20:20:21 iteration: 36100 loss: 0.0027 lr: 0.02
+2019-07-01 20:20:38 iteration: 36200 loss: 0.0024 lr: 0.02
+2019-07-01 20:20:57 iteration: 36300 loss: 0.0023 lr: 0.02
+2019-07-01 20:21:14 iteration: 36400 loss: 0.0026 lr: 0.02
+2019-07-01 20:21:32 iteration: 36500 loss: 0.0024 lr: 0.02
+2019-07-01 20:21:50 iteration: 36600 loss: 0.0024 lr: 0.02
+2019-07-01 20:22:05 iteration: 36700 loss: 0.0026 lr: 0.02
+2019-07-01 20:22:25 iteration: 36800 loss: 0.0024 lr: 0.02
+2019-07-01 20:22:41 iteration: 36900 loss: 0.0026 lr: 0.02
+2019-07-01 20:22:56 iteration: 37000 loss: 0.0026 lr: 0.02
+2019-07-01 20:23:16 iteration: 37100 loss: 0.0025 lr: 0.02
+2019-07-01 20:23:34 iteration: 37200 loss: 0.0022 lr: 0.02
+2019-07-01 20:23:50 iteration: 37300 loss: 0.0022 lr: 0.02
+2019-07-01 20:24:09 iteration: 37400 loss: 0.0023 lr: 0.02
+2019-07-01 20:24:30 iteration: 37500 loss: 0.0024 lr: 0.02
+2019-07-01 20:24:48 iteration: 37600 loss: 0.0023 lr: 0.02
+2019-07-01 20:25:07 iteration: 37700 loss: 0.0023 lr: 0.02
+2019-07-01 20:25:26 iteration: 37800 loss: 0.0025 lr: 0.02
+2019-07-01 20:25:45 iteration: 37900 loss: 0.0024 lr: 0.02
+2019-07-01 20:26:00 iteration: 38000 loss: 0.0024 lr: 0.02
+2019-07-01 20:26:22 iteration: 38100 loss: 0.0023 lr: 0.02
+2019-07-01 20:26:40 iteration: 38200 loss: 0.0024 lr: 0.02
+2019-07-01 20:26:57 iteration: 38300 loss: 0.0023 lr: 0.02
+2019-07-01 20:27:17 iteration: 38400 loss: 0.0028 lr: 0.02
+2019-07-01 20:27:35 iteration: 38500 loss: 0.0025 lr: 0.02
+2019-07-01 20:27:53 iteration: 38600 loss: 0.0021 lr: 0.02
+2019-07-01 20:28:07 iteration: 38700 loss: 0.0022 lr: 0.02
+2019-07-01 20:28:25 iteration: 38800 loss: 0.0022 lr: 0.02
+2019-07-01 20:28:42 iteration: 38900 loss: 0.0029 lr: 0.02
+2019-07-01 20:28:58 iteration: 39000 loss: 0.0025 lr: 0.02
+2019-07-01 20:29:20 iteration: 39100 loss: 0.0024 lr: 0.02
+2019-07-01 20:29:38 iteration: 39200 loss: 0.0022 lr: 0.02
+2019-07-01 20:29:56 iteration: 39300 loss: 0.0023 lr: 0.02
+2019-07-01 20:30:12 iteration: 39400 loss: 0.0023 lr: 0.02
+2019-07-01 20:30:27 iteration: 39500 loss: 0.0025 lr: 0.02
+2019-07-01 20:30:44 iteration: 39600 loss: 0.0024 lr: 0.02
+2019-07-01 20:31:04 iteration: 39700 loss: 0.0024 lr: 0.02
+2019-07-01 20:31:19 iteration: 39800 loss: 0.0024 lr: 0.02
+2019-07-01 20:31:37 iteration: 39900 loss: 0.0024 lr: 0.02
+2019-07-01 20:31:55 iteration: 40000 loss: 0.0023 lr: 0.02
+2019-07-01 20:32:17 iteration: 40100 loss: 0.0025 lr: 0.02
+2019-07-01 20:32:32 iteration: 40200 loss: 0.0021 lr: 0.02
+2019-07-01 20:32:50 iteration: 40300 loss: 0.0023 lr: 0.02
+2019-07-01 20:33:08 iteration: 40400 loss: 0.0025 lr: 0.02
+2019-07-01 20:33:27 iteration: 40500 loss: 0.0021 lr: 0.02
+2019-07-01 20:33:43 iteration: 40600 loss: 0.0026 lr: 0.02
+2019-07-01 20:34:01 iteration: 40700 loss: 0.0024 lr: 0.02
+2019-07-01 20:34:17 iteration: 40800 loss: 0.0021 lr: 0.02
+2019-07-01 20:34:33 iteration: 40900 loss: 0.0025 lr: 0.02
+2019-07-01 20:34:49 iteration: 41000 loss: 0.0026 lr: 0.02
+2019-07-01 20:35:12 iteration: 41100 loss: 0.0024 lr: 0.02
+2019-07-01 20:35:29 iteration: 41200 loss: 0.0024 lr: 0.02
+2019-07-01 20:35:47 iteration: 41300 loss: 0.0022 lr: 0.02
+2019-07-01 20:36:04 iteration: 41400 loss: 0.0024 lr: 0.02
+2019-07-01 20:36:20 iteration: 41500 loss: 0.0021 lr: 0.02
+2019-07-01 20:36:38 iteration: 41600 loss: 0.0023 lr: 0.02
+2019-07-01 20:36:56 iteration: 41700 loss: 0.0022 lr: 0.02
+2019-07-01 20:37:14 iteration: 41800 loss: 0.0028 lr: 0.02
+2019-07-01 20:37:32 iteration: 41900 loss: 0.0023 lr: 0.02
+2019-07-01 20:37:50 iteration: 42000 loss: 0.0021 lr: 0.02
+2019-07-01 20:38:14 iteration: 42100 loss: 0.0022 lr: 0.02
+2019-07-01 20:38:30 iteration: 42200 loss: 0.0023 lr: 0.02
+2019-07-01 20:38:46 iteration: 42300 loss: 0.0022 lr: 0.02
+2019-07-01 20:39:02 iteration: 42400 loss: 0.0021 lr: 0.02
+2019-07-01 20:39:17 iteration: 42500 loss: 0.0024 lr: 0.02
+2019-07-01 20:39:33 iteration: 42600 loss: 0.0024 lr: 0.02
+2019-07-01 20:39:48 iteration: 42700 loss: 0.0024 lr: 0.02
+2019-07-01 20:40:06 iteration: 42800 loss: 0.0021 lr: 0.02
+2019-07-01 20:40:23 iteration: 42900 loss: 0.0024 lr: 0.02
+2019-07-01 20:40:42 iteration: 43000 loss: 0.0022 lr: 0.02
+2019-07-01 20:41:05 iteration: 43100 loss: 0.0020 lr: 0.02
+2019-07-01 20:41:20 iteration: 43200 loss: 0.0022 lr: 0.02
+2019-07-01 20:41:37 iteration: 43300 loss: 0.0022 lr: 0.02
+2019-07-01 20:41:54 iteration: 43400 loss: 0.0023 lr: 0.02
+2019-07-01 20:42:08 iteration: 43500 loss: 0.0020 lr: 0.02
+2019-07-01 20:42:25 iteration: 43600 loss: 0.0020 lr: 0.02
+2019-07-01 20:42:43 iteration: 43700 loss: 0.0024 lr: 0.02
+2019-07-01 20:42:57 iteration: 43800 loss: 0.0022 lr: 0.02
+2019-07-01 20:43:16 iteration: 43900 loss: 0.0025 lr: 0.02
+2019-07-01 20:43:33 iteration: 44000 loss: 0.0021 lr: 0.02
+2019-07-01 20:43:53 iteration: 44100 loss: 0.0023 lr: 0.02
+2019-07-01 20:44:11 iteration: 44200 loss: 0.0022 lr: 0.02
+2019-07-01 20:44:27 iteration: 44300 loss: 0.0024 lr: 0.02
+2019-07-01 20:44:43 iteration: 44400 loss: 0.0024 lr: 0.02
+2019-07-01 20:45:02 iteration: 44500 loss: 0.0019 lr: 0.02
+2019-07-01 20:45:19 iteration: 44600 loss: 0.0022 lr: 0.02
+2019-07-01 20:45:34 iteration: 44700 loss: 0.0022 lr: 0.02
+2019-07-01 20:45:52 iteration: 44800 loss: 0.0020 lr: 0.02
+2019-07-01 20:46:11 iteration: 44900 loss: 0.0022 lr: 0.02
+2019-07-01 20:46:25 iteration: 45000 loss: 0.0020 lr: 0.02
+2019-07-01 20:46:45 iteration: 45100 loss: 0.0020 lr: 0.02
+2019-07-01 20:47:02 iteration: 45200 loss: 0.0021 lr: 0.02
+2019-07-01 20:47:18 iteration: 45300 loss: 0.0021 lr: 0.02
+2019-07-01 20:47:33 iteration: 45400 loss: 0.0023 lr: 0.02
+2019-07-01 20:47:48 iteration: 45500 loss: 0.0022 lr: 0.02
+2019-07-01 20:48:05 iteration: 45600 loss: 0.0022 lr: 0.02
+2019-07-01 20:48:23 iteration: 45700 loss: 0.0023 lr: 0.02
+2019-07-01 20:48:39 iteration: 45800 loss: 0.0022 lr: 0.02
+2019-07-01 20:48:57 iteration: 45900 loss: 0.0021 lr: 0.02
+2019-07-01 20:49:11 iteration: 46000 loss: 0.0023 lr: 0.02
+2019-07-01 20:49:33 iteration: 46100 loss: 0.0022 lr: 0.02
+2019-07-01 20:49:48 iteration: 46200 loss: 0.0020 lr: 0.02
+2019-07-01 20:50:04 iteration: 46300 loss: 0.0021 lr: 0.02
+2019-07-01 20:50:21 iteration: 46400 loss: 0.0022 lr: 0.02
+2019-07-01 20:50:38 iteration: 46500 loss: 0.0022 lr: 0.02
+2019-07-01 20:50:54 iteration: 46600 loss: 0.0020 lr: 0.02
+2019-07-01 20:51:12 iteration: 46700 loss: 0.0022 lr: 0.02
+2019-07-01 20:51:29 iteration: 46800 loss: 0.0020 lr: 0.02
+2019-07-01 20:51:46 iteration: 46900 loss: 0.0021 lr: 0.02
+2019-07-01 20:52:03 iteration: 47000 loss: 0.0024 lr: 0.02
+2019-07-01 20:52:23 iteration: 47100 loss: 0.0023 lr: 0.02
+2019-07-01 20:52:38 iteration: 47200 loss: 0.0020 lr: 0.02
+2019-07-01 20:52:54 iteration: 47300 loss: 0.0023 lr: 0.02
+2019-07-01 20:53:11 iteration: 47400 loss: 0.0024 lr: 0.02
+2019-07-01 20:53:28 iteration: 47500 loss: 0.0019 lr: 0.02
+2019-07-01 20:53:44 iteration: 47600 loss: 0.0026 lr: 0.02
+2019-07-01 20:54:00 iteration: 47700 loss: 0.0022 lr: 0.02
+2019-07-01 20:54:16 iteration: 47800 loss: 0.0024 lr: 0.02
+2019-07-01 20:54:33 iteration: 47900 loss: 0.0026 lr: 0.02
+2019-07-01 20:54:49 iteration: 48000 loss: 0.0021 lr: 0.02
+2019-07-01 20:55:08 iteration: 48100 loss: 0.0021 lr: 0.02
+2019-07-01 20:55:27 iteration: 48200 loss: 0.0020 lr: 0.02
+2019-07-01 20:55:43 iteration: 48300 loss: 0.0023 lr: 0.02
+2019-07-01 20:56:00 iteration: 48400 loss: 0.0020 lr: 0.02
+2019-07-01 20:56:15 iteration: 48500 loss: 0.0020 lr: 0.02
+2019-07-01 20:56:30 iteration: 48600 loss: 0.0022 lr: 0.02
+2019-07-01 20:56:46 iteration: 48700 loss: 0.0023 lr: 0.02
+2019-07-01 20:57:00 iteration: 48800 loss: 0.0024 lr: 0.02
+2019-07-01 20:57:17 iteration: 48900 loss: 0.0021 lr: 0.02
+2019-07-01 20:57:37 iteration: 49000 loss: 0.0020 lr: 0.02
+2019-07-01 20:57:55 iteration: 49100 loss: 0.0021 lr: 0.02
+2019-07-01 20:58:10 iteration: 49200 loss: 0.0021 lr: 0.02
+2019-07-01 20:58:26 iteration: 49300 loss: 0.0020 lr: 0.02
+2019-07-01 20:58:43 iteration: 49400 loss: 0.0021 lr: 0.02
+2019-07-01 20:59:01 iteration: 49500 loss: 0.0022 lr: 0.02
+2019-07-01 20:59:18 iteration: 49600 loss: 0.0020 lr: 0.02
+2019-07-01 20:59:35 iteration: 49700 loss: 0.0018 lr: 0.02
+2019-07-01 20:59:52 iteration: 49800 loss: 0.0019 lr: 0.02
+2019-07-01 21:00:09 iteration: 49900 loss: 0.0021 lr: 0.02
+2019-07-01 21:00:26 iteration: 50000 loss: 0.0019 lr: 0.02
+2019-07-01 21:00:45 iteration: 50100 loss: 0.0021 lr: 0.02
+2019-07-01 21:01:02 iteration: 50200 loss: 0.0021 lr: 0.02
+2019-07-01 21:01:20 iteration: 50300 loss: 0.0020 lr: 0.02
+2019-07-01 21:01:37 iteration: 50400 loss: 0.0023 lr: 0.02
+2019-07-01 21:01:55 iteration: 50500 loss: 0.0019 lr: 0.02
+2019-07-01 21:02:12 iteration: 50600 loss: 0.0019 lr: 0.02
+2019-07-01 21:02:26 iteration: 50700 loss: 0.0022 lr: 0.02
+2019-07-01 21:02:43 iteration: 50800 loss: 0.0021 lr: 0.02
+2019-07-01 21:02:59 iteration: 50900 loss: 0.0024 lr: 0.02
+2019-07-01 21:03:14 iteration: 51000 loss: 0.0020 lr: 0.02
+2019-07-01 21:03:33 iteration: 51100 loss: 0.0020 lr: 0.02
+2019-07-01 21:03:50 iteration: 51200 loss: 0.0021 lr: 0.02
+2019-07-01 21:04:05 iteration: 51300 loss: 0.0021 lr: 0.02
+2019-07-01 21:04:20 iteration: 51400 loss: 0.0022 lr: 0.02
+2019-07-01 21:04:38 iteration: 51500 loss: 0.0020 lr: 0.02
+2019-07-01 21:04:55 iteration: 51600 loss: 0.0023 lr: 0.02
+2019-07-01 21:05:10 iteration: 51700 loss: 0.0022 lr: 0.02
+2019-07-01 21:05:28 iteration: 51800 loss: 0.0023 lr: 0.02
+2019-07-01 21:05:44 iteration: 51900 loss: 0.0022 lr: 0.02
+2019-07-01 21:05:59 iteration: 52000 loss: 0.0022 lr: 0.02
+2019-07-01 21:06:20 iteration: 52100 loss: 0.0026 lr: 0.02
+2019-07-01 21:06:36 iteration: 52200 loss: 0.0021 lr: 0.02
+2019-07-01 21:06:50 iteration: 52300 loss: 0.0020 lr: 0.02
+2019-07-01 21:07:07 iteration: 52400 loss: 0.0020 lr: 0.02
+2019-07-01 21:07:23 iteration: 52500 loss: 0.0022 lr: 0.02
+2019-07-01 21:07:37 iteration: 52600 loss: 0.0020 lr: 0.02
+2019-07-01 21:07:55 iteration: 52700 loss: 0.0021 lr: 0.02
+2019-07-01 21:08:10 iteration: 52800 loss: 0.0020 lr: 0.02
+2019-07-01 21:08:27 iteration: 52900 loss: 0.0019 lr: 0.02
+2019-07-01 21:08:45 iteration: 53000 loss: 0.0020 lr: 0.02
+2019-07-01 21:09:05 iteration: 53100 loss: 0.0023 lr: 0.02
+2019-07-01 21:09:22 iteration: 53200 loss: 0.0021 lr: 0.02
+2019-07-01 21:09:39 iteration: 53300 loss: 0.0022 lr: 0.02
+2019-07-01 21:09:54 iteration: 53400 loss: 0.0022 lr: 0.02
+2019-07-01 21:10:10 iteration: 53500 loss: 0.0020 lr: 0.02
+2019-07-01 21:10:27 iteration: 53600 loss: 0.0019 lr: 0.02
+2019-07-01 21:10:47 iteration: 53700 loss: 0.0023 lr: 0.02
+2019-07-01 21:11:05 iteration: 53800 loss: 0.0020 lr: 0.02
+2019-07-01 21:11:23 iteration: 53900 loss: 0.0023 lr: 0.02
+2019-07-01 21:11:40 iteration: 54000 loss: 0.0023 lr: 0.02
+2019-07-01 21:12:00 iteration: 54100 loss: 0.0021 lr: 0.02
+2019-07-01 21:12:16 iteration: 54200 loss: 0.0021 lr: 0.02
+2019-07-01 21:12:34 iteration: 54300 loss: 0.0022 lr: 0.02
+2019-07-01 21:12:51 iteration: 54400 loss: 0.0021 lr: 0.02
+2019-07-01 21:13:07 iteration: 54500 loss: 0.0022 lr: 0.02
+2019-07-01 21:13:23 iteration: 54600 loss: 0.0019 lr: 0.02
+2019-07-01 21:13:40 iteration: 54700 loss: 0.0020 lr: 0.02
+2019-07-01 21:13:58 iteration: 54800 loss: 0.0019 lr: 0.02
+2019-07-01 21:14:13 iteration: 54900 loss: 0.0021 lr: 0.02
+2019-07-01 21:14:29 iteration: 55000 loss: 0.0022 lr: 0.02
+2019-07-01 21:14:49 iteration: 55100 loss: 0.0020 lr: 0.02
+2019-07-01 21:15:05 iteration: 55200 loss: 0.0022 lr: 0.02
+2019-07-01 21:15:21 iteration: 55300 loss: 0.0020 lr: 0.02
+2019-07-01 21:15:38 iteration: 55400 loss: 0.0020 lr: 0.02
+2019-07-01 21:15:54 iteration: 55500 loss: 0.0020 lr: 0.02
+2019-07-01 21:16:10 iteration: 55600 loss: 0.0019 lr: 0.02
+2019-07-01 21:16:25 iteration: 55700 loss: 0.0022 lr: 0.02
+2019-07-01 21:16:42 iteration: 55800 loss: 0.0021 lr: 0.02
+2019-07-01 21:16:59 iteration: 55900 loss: 0.0022 lr: 0.02
+2019-07-01 21:17:13 iteration: 56000 loss: 0.0022 lr: 0.02
+2019-07-01 21:17:34 iteration: 56100 loss: 0.0021 lr: 0.02
+2019-07-01 21:17:51 iteration: 56200 loss: 0.0019 lr: 0.02
+2019-07-01 21:18:06 iteration: 56300 loss: 0.0018 lr: 0.02
+2019-07-01 21:18:23 iteration: 56400 loss: 0.0020 lr: 0.02
+2019-07-01 21:18:37 iteration: 56500 loss: 0.0021 lr: 0.02
+2019-07-01 21:18:54 iteration: 56600 loss: 0.0019 lr: 0.02
+2019-07-01 21:19:11 iteration: 56700 loss: 0.0022 lr: 0.02
+2019-07-01 21:19:25 iteration: 56800 loss: 0.0022 lr: 0.02
+2019-07-01 21:19:42 iteration: 56900 loss: 0.0019 lr: 0.02
+2019-07-01 21:19:59 iteration: 57000 loss: 0.0020 lr: 0.02
+2019-07-01 21:20:18 iteration: 57100 loss: 0.0023 lr: 0.02
+2019-07-01 21:20:34 iteration: 57200 loss: 0.0020 lr: 0.02
+2019-07-01 21:20:51 iteration: 57300 loss: 0.0022 lr: 0.02
+2019-07-01 21:21:06 iteration: 57400 loss: 0.0019 lr: 0.02
+2019-07-01 21:21:21 iteration: 57500 loss: 0.0021 lr: 0.02
+2019-07-01 21:21:36 iteration: 57600 loss: 0.0019 lr: 0.02
+2019-07-01 21:21:53 iteration: 57700 loss: 0.0021 lr: 0.02
+2019-07-01 21:22:09 iteration: 57800 loss: 0.0020 lr: 0.02
+2019-07-01 21:22:23 iteration: 57900 loss: 0.0018 lr: 0.02
+2019-07-01 21:22:38 iteration: 58000 loss: 0.0020 lr: 0.02
+2019-07-01 21:22:59 iteration: 58100 loss: 0.0018 lr: 0.02
+2019-07-01 21:23:14 iteration: 58200 loss: 0.0020 lr: 0.02
+2019-07-01 21:23:29 iteration: 58300 loss: 0.0022 lr: 0.02
+2019-07-01 21:23:42 iteration: 58400 loss: 0.0023 lr: 0.02
+2019-07-01 21:23:59 iteration: 58500 loss: 0.0019 lr: 0.02
+2019-07-01 21:24:14 iteration: 58600 loss: 0.0021 lr: 0.02
+2019-07-01 21:24:29 iteration: 58700 loss: 0.0022 lr: 0.02
+2019-07-01 21:24:45 iteration: 58800 loss: 0.0020 lr: 0.02
+2019-07-01 21:25:03 iteration: 58900 loss: 0.0022 lr: 0.02
+2019-07-01 21:25:20 iteration: 59000 loss: 0.0018 lr: 0.02
+2019-07-01 21:25:38 iteration: 59100 loss: 0.0019 lr: 0.02
+2019-07-01 21:25:54 iteration: 59200 loss: 0.0018 lr: 0.02
+2019-07-01 21:26:09 iteration: 59300 loss: 0.0023 lr: 0.02
+2019-07-01 21:26:27 iteration: 59400 loss: 0.0022 lr: 0.02
+2019-07-01 21:26:44 iteration: 59500 loss: 0.0020 lr: 0.02
+2019-07-01 21:27:00 iteration: 59600 loss: 0.0019 lr: 0.02
+2019-07-01 21:27:14 iteration: 59700 loss: 0.0020 lr: 0.02
+2019-07-01 21:27:31 iteration: 59800 loss: 0.0020 lr: 0.02
+2019-07-01 21:27:46 iteration: 59900 loss: 0.0020 lr: 0.02
+2019-07-01 21:27:59 iteration: 60000 loss: 0.0021 lr: 0.02
+2019-07-01 21:28:07 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-01 21:28:07 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:09:52 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 4,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:12:25 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:13:32 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 4,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:13:49 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 4,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:15:51 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 4,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:16:08 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 4,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:22:52 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 4,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-07-02 10:28:44 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['Nose',
+                      'Pellet',
+                      'DomInside',
+                      'DomOutside',
+                      'Index',
+                      'Middle',
+                      'Ring',
+                      'Pinky',
+                      'OtherHand'],
+ 'batch_size': 4,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\goprolensfront_vj90shuffle1.mat',
+ 'dataset_type': 'default',
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\vjj14\\.conda\\envs\\dlc-windowsGPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_goprolensfrontJun25\\Documentation_data-goprolensfront_90shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\dlc-models\\iteration-0\\goprolensfrontJun25-trainset90shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'use_gt_segm': False,
+ 'video': False,
+ 'video_batch': False,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}

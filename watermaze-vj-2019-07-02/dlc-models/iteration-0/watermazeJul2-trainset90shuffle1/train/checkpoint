@@ -1,0 +1,6 @@
+model_checkpoint_path: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\watermaze-vj-2019-07-02\\dlc-models\\iteration-0\\watermazeJul2-trainset90shuffle1\\train\\snapshot-2000"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\watermaze-vj-2019-07-02\\dlc-models\\iteration-0\\watermazeJul2-trainset90shuffle1\\train\\snapshot-1600"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\watermaze-vj-2019-07-02\\dlc-models\\iteration-0\\watermazeJul2-trainset90shuffle1\\train\\snapshot-1700"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\watermaze-vj-2019-07-02\\dlc-models\\iteration-0\\watermazeJul2-trainset90shuffle1\\train\\snapshot-1800"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\watermaze-vj-2019-07-02\\dlc-models\\iteration-0\\watermazeJul2-trainset90shuffle1\\train\\snapshot-1900"
+all_model_checkpoint_paths: "C:\\Users\\vjj14\\Desktop\\DeepLabCut\\watermaze-vj-2019-07-02\\dlc-models\\iteration-0\\watermazeJul2-trainset90shuffle1\\train\\snapshot-2000"
