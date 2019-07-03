@@ -423,3 +423,38 @@
    DESCRIPTION:same but with 120k more (180k total) iterations
 2019-07-02 17:26:09.310265***train_network start
    DESCRIPTION:same as above, try 2
+2019-07-02 18:26:13.664111***train_network end
+   time elapsed:1:00:04.353846
+2019-07-02 18:26:13.678074***evaluate_network start
+2019-07-02 18:26:13.786783***evaluate_network end
+   time elapsed:0:00:00.108709
+2019-07-02 18:26:13.797756***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\6_26_2.7k_copy.MP4']
+2019-07-02 18:26:16.638168***analyze_videos end
+   time elapsed:0:00:02.840412
+2019-07-02 18:26:16.655123***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\6_26_2.7k_copy.MP4']
+2019-07-02 18:26:16.698009***create_labeled_video end
+   time elapsed:0:00:00.042886
+2019-07-03 10:24:04.446097***evaluate_network start
+2019-07-03 10:24:04.777213***evaluate_network end
+   time elapsed:0:00:00.331116
+2019-07-03 10:26:27.079294***train_network start
+   DESCRIPTION:try again but with 60k more iters(starting from 60k, last time only did 12k)
+2019-07-03 10:52:54.173064***train_network start
+   DESCRIPTION:same as above but with distinguishing 60009 iterations
+2019-07-03 10:53:41.660579***train_network start
+   DESCRIPTION:restart since I decided to use 60005 instead
+2019-07-03 13:34:27.643249***train_network end
+   time elapsed:2:40:45.982670
+2019-07-03 14:04:31.453672***evaluate_network start
+2019-07-03 14:06:46.888859***evaluate_network end
+   time elapsed:0:02:15.435187
+2019-07-03 14:06:46.902821***analyze_videos start
+   VIDEO: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\6_26_2.7k_copy.MP4']
+2019-07-03 14:31:57.893774***analyze_videos end
+   time elapsed:0:25:10.990953
+2019-07-03 14:31:57.906740***create_labeled_video start
+   VIDEOS: ['C:\\Users\\vjj14\\Desktop\\DeepLabCut\\goprolensfront-vj-2019-06-25\\videos\\6_26_2.7k_copy.MP4']
+2019-07-03 14:37:40.003540***create_labeled_video end
+   time elapsed:0:05:42.096800
