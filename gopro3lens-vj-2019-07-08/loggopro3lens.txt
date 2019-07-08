@@ -1,0 +1,26 @@
+
+2019-07-08 14:44:41.823110***extract_frames start
+2019-07-08 14:46:50.310780***extract_frames start
+2019-07-08 14:47:40.703555***label_frames start
+2019-07-08 14:47:46.745813***label_frames end
+   time elapsed:0:00:06.042258
+2019-07-08 14:47:51.428880***extract_frames start
+2019-07-08 14:56:18.493137***extract_frames start
+2019-07-08 15:26:49.383293***label_frames start
+2019-07-08 16:13:28.601782***create_training_dataset start
+2019-07-08 16:14:11.667546***create_training_dataset start
+2019-07-08 16:14:22.299848***create_training_dataset end
+   time elapsed:0:00:10.632302
+2019-07-08 16:24:26.409542***extract_frames start
+2019-07-08 16:43:46.461420***extract_frames start
+2019-07-08 16:47:30.635475***extract_frames end
+   time elapsed:0:03:44.174055
+     No Input Receivedframes labeled
+2019-07-08 16:49:46.904280***label_frames start
+2019-07-08 17:17:37.042610***label_frames end
+   time elapsed:0:27:50.138330
+2019-07-08 17:17:41.840743***create_training_dataset start
+2019-07-08 17:17:57.917761***create_training_dataset end
+   time elapsed:0:00:16.077018
+2019-07-08 17:18:31.831465***train_network start
+   DESCRIPTION:first network, 120k iters

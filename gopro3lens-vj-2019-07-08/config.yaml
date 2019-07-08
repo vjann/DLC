@@ -1,0 +1,107 @@
+# Project definitions (do not edit)
+Task: gopro3lens
+scorer: vj
+date: Jul8
+
+# Project path (change when moving around)
+project_path: C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\vjj14\Documents\GoProLens\3lens\gp2.7k3lensA.MP4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\19.12.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\23.752.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\24.186.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\24.63.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\36.846.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\43.652.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\44.042.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\46.964.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\60.218.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\62.897.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\64.787.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\72.045.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\85.174.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\88.196.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\91.652.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\93.248.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\93.814.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\106.294.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\111.344.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\112.249.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\113.407.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\115.474.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\115.918.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\129.119.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\136.837.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\138.581.mp4:
+    crop: 0, 2704, 0, 1520
+  C:\Users\vjj14\Desktop\DeepLabCut\gopro3lens-vj-2019-07-08\videos\106.867.mp4:
+    crop: 0, 2704, 0, 1520
+bodyparts:
+- Nose
+- Pellet
+- DomInside
+- DomOutside
+- Index
+- Middle
+- Ring
+- Pinky
+- OtherHand
+start: 0
+stop: 1
+numframes2pick: 180
+
+# Plotting configuration
+pcutoff: 0.3
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.9
+iteration: 0
+resnet: 50
+snapshotindex: -1
+batch_size: 4
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
